@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   margin: 0;
 }
 
@@ -8,6 +9,8 @@ main {
   margin: 0 auto;
   flex-direction: column;
 }
+
+/* HEADER */
 
 .header_logo {
   margin: 10px 0px 10px 38px;
@@ -37,9 +40,9 @@ main {
   cursor: pointer;
 }
 
-/* .header_menu_item_link {
+.header_menu_item_link {
   text-decoration: none;
-} */
+}
 
 .header_menu_item_link:hover {
   text-decoration: underline;
@@ -49,8 +52,7 @@ main {
   color: red;
 }
 
-
-
+/* MAIN */
 
 .title {
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva,
@@ -93,7 +95,18 @@ code {
 }
 
 @media (max-width: 800px) {
-  /* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+  h1 {
+    font-family: LucidaGrande-Bold;
+    font-size: 26px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 28px;
+  }
+  h2 {
+    font-family: LucidaGrande-Bold;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 39px;
+  }
 }
